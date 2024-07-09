@@ -8,11 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bc3f30a191971145",
+            "id": "4a8c324a66e9e486",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "study/go 语言/《Go 入门指南》.pdf"
+              }
             }
           }
         ]
@@ -65,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "97c4f20562213e95",
@@ -81,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "study/go 语言/《Go 入门指南》.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "study/go 语言/《Go 入门指南》.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "study/go 语言/《Go 入门指南》.pdf"
+              }
             }
           }
         ]
@@ -138,8 +145,49 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bc3f30a191971145",
+  "floating": {
+    "id": "391544421feeed00",
+    "type": "floating",
+    "children": [
+      {
+        "id": "e50b2f00a04c4c2f",
+        "type": "window",
+        "children": [
+          {
+            "id": "2488680900686e8c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bc3f30a191971145",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "study/go 语言/go_study_note.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1284,
+        "y": 72,
+        "width": 600,
+        "height": 600,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "4a8c324a66e9e486",
   "lastOpenFiles": [
+    "study/go 语言/go_study_note.md",
+    "study/go 语言/《Go 入门指南》.pdf",
+    "study/go 语言",
+    "study",
     "欢迎.md"
   ]
 }

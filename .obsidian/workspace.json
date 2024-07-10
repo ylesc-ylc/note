@@ -18,6 +18,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "29b5b515ca18cb01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ef4f3722f2055a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/go 语言/go_study_note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,43 +162,6 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false
     }
-  },
-  "floating": {
-    "id": "391544421feeed00",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e50b2f00a04c4c2f",
-        "type": "window",
-        "children": [
-          {
-            "id": "2488680900686e8c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bc3f30a191971145",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "study/go 语言/go_study_note.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1284,
-        "y": 72,
-        "width": 600,
-        "height": 600,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
   },
   "active": "4a8c324a66e9e486",
   "lastOpenFiles": [

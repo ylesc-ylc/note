@@ -140,3 +140,37 @@ else {
 //上面的代码无效
 ```
 
+if语句中可以初始化一些东西
+```go
+if value, ok := readData(); ok{
+
+}
+```
+前面的初始化语句并不参与识别，仅仅初始化了一些东西
+
+测试多返回值函数的错误
+```go
+anInt, _ = strconv.Atoi(origStr)
+
+```
+在 Go 语言中，strconv.Atoi 函数用于将字符串转换为整数。该函数返回两个值：转换后的整数和一个错误（如果有错误发生）
+
+```go
+package main
+
+import (
+    "fmt"
+    "strconv"
+)
+
+func main() {
+    origStr := "123"
+    anInt, err := strconv.Atoi(origStr)
+    if err != nil {
+        fmt.Println("字符串转换为整数时出错:", err)
+    } else {
+        fmt.Println("转换后的整数是:", anInt)
+    }
+}
+
+```
